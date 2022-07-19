@@ -1,0 +1,243 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img{display: block;}
+
+// 以上為CSS reset
+
+
+.wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.banner{
+    background-image: url("../week2-img/banner.png");
+    height: 958px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.position{
+    position: relative;
+    
+}
+
+.width304{
+    width: 304px;
+}
+.plateform-hover{
+        a{
+            &:hover{
+                img{
+                    width: 70px;
+                    height: 70px;
+            }
+            }
+        }
+}
+
+.mr-16{
+    margin-right: 16px;
+}
+
+.mr-24{
+    margin-right: 24px;
+}
+
+.mb-12{
+    margin-bottom: 12px;
+}
+
+.mb-16{
+    margin-bottom: 16px;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.mb-28{
+    margin-bottom: 28px;
+}
+
+.mb-32{
+    margin-bottom: 32px;
+}
+
+.mb-40{
+    margin-bottom: 40px;
+}
+
+.mb-48{
+    margin-bottom: 48px;
+}
+
+.mb-56{
+    margin-bottom: 56px;
+}
+
+.mb-68{
+    margin-bottom: 68px;
+}
+
+.mb-144{
+    margin-bottom: 144px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.gap-24{
+    gap: 24px;
+}
+
+.jcc{
+    justify-content: center;
+}
+
+.aic{
+    align-items: center;
+}
+
+.jcsb{
+    justify-content: space-between;
+}
+
+.jcsa{
+    justify-content: space-around;
+}
+
+.font-s20{
+    font-size: 20px;
+}
+.font-s24{
+font-size: 24px;
+}
+
+.font-s64{
+    font-size: 64px;
+}
+
+.font-s80{
+    font-size: 80px;
+}
+
+.line-h30{
+    line-height: 30px;
+}
+
+.line-h36{
+    line-height: 36px;
+}
+.line-h48{
+    line-height: 48px;
+}
+
+.line-h84{
+    line-height: 84px;
+}
+
+.line-h106{
+    line-height: 106px;
+}
+
+.font-italic{
+    font-style:Italic;
+}
+
+.font-f{
+    font-family: 'Roboto', sans-serif;
+}
+
+.tac{
+    text-align: center;
+}
+
+.color-white{
+    color: #FFFFFF;
+}
+
+.border-b{
+    border-bottom: 1px solid #000000;
+}
+
+.padding-b24{
+    padding-bottom: 24px;
+}
+
+.circle-red{
+    width: 22px;
+    height: 22px;
+    background-color: #891818;
+    border-radius: 50%;
+}
+
+.brand{
+    background-color: #000000;
+    width: 100%;
+    padding-top: 56px;
+    padding-bottom: 160px;
+}
+
+.footer{
+    background-color: #000000;
+    width: 100%;
+    padding: 64px;
+}
+
+.text-d-none{
+    a{
+    text-decoration: none;
+    &:hover{
+        color: red;
+    }
+}
+
+}
